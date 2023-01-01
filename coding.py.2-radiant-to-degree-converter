@@ -1,0 +1,14 @@
+x = input("yo wassa  do you want to conver radiant to degrees or degrees to radian yes or no:")
+if x != "yes":
+    quit()
+y = input("what do you have dgrees or radian:")
+if y == "radian":
+   r_nuber = int(input("how mu radian u got:"))
+   print( "the amount of dgrees are:" + r_nuber * 57.2958 )
+
+elif y == "dgrees":
+    d_number= int(input("how maney dgrees you got:"))
+    print( "the amount of radiant are:" + d_number / 57.2958 )
+
+elif y != "dgrees" or "radian":
+    quit()
